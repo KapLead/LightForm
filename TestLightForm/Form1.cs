@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using LightForm;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+using LightForm.SvgElement;
+using TestLightForm.Properties;
 
 namespace TestLightForm
 {
