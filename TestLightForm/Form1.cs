@@ -10,6 +10,8 @@ namespace TestLightForm
         public Form1()
         {
             InitializeComponent();
+            HeaderPanel.BackColor=BorderColor = Color.DarkRed;
+            TitleBox.TextAlign = ContentAlignment.MiddleCenter;
         }
 
         private void Form1_Load(object sender, EventArgs e)

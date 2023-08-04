@@ -48,6 +48,14 @@
     <Compile Include="Controls\LightButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\LightLabelShadow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LightScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Core\MoveControl.cs" />
+    <Compile Include="Core\ResizeControl.cs" />
     <Compile Include="LightForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,5 +78,6 @@
   <ItemGroup>
     <None Include="Resources\application.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
