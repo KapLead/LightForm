@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lightLabelShadow1 = new LightForm.Controls.LightLabelShadow();
-            this.lightScrollBar1 = new LightForm.Controls.LightScrollBar();
-            this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
             this.SuspendLayout();
             // 
             // lightLabelShadow1
@@ -48,27 +46,11 @@
             this.lightLabelShadow1.Text = "lightLabelShadow1";
             this.lightLabelShadow1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // lightScrollBar1
-            // 
-            this.lightScrollBar1.Location = new System.Drawing.Point(219, 214);
-            this.lightScrollBar1.Name = "lightScrollBar1";
-            this.lightScrollBar1.Size = new System.Drawing.Size(167, 12);
-            this.lightScrollBar1.TabIndex = 2;
-            // 
-            // hScrollBar1
-            // 
-            this.hScrollBar1.Location = new System.Drawing.Point(219, 239);
-            this.hScrollBar1.Name = "hScrollBar1";
-            this.hScrollBar1.Size = new System.Drawing.Size(167, 13);
-            this.hScrollBar1.TabIndex = 3;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(685, 472);
-            this.Controls.Add(this.hScrollBar1);
-            this.Controls.Add(this.lightScrollBar1);
             this.Controls.Add(this.lightLabelShadow1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -82,8 +64,6 @@
         #endregion
 
         private LightForm.Controls.LightLabelShadow lightLabelShadow1;
-        private LightForm.Controls.LightScrollBar lightScrollBar1;
-        private System.Windows.Forms.HScrollBar hScrollBar1;
     }
 }
 

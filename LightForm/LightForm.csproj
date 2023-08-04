@@ -51,6 +51,9 @@
     <Compile Include="Controls\LightLabelShadow.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\LightPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\LightScrollBar.cs">
       <SubType>Component</SubType>
     </Compile>
